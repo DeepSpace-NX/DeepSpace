@@ -40,7 +40,7 @@
 
 | Project                                                                     | Version                                                                           |
 | :-------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| [AIO-switch-updater](https://github.com/HamletDuFromage/AIO-switch-updater) | [2.4.9](https://github.com/HamletDuFromage/aio-switch-updater/releases/tag/2.4.9) |
+| [AIO-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater) | [2.4.9](https://github.com/HamletDuFromage/aio-switch-updater/releases/tag/2.4.9) |
 | [Awoo-Installer](https://github.com/Huntereb/Awoo-Installer)                | [1.3.4](https://github.com/Huntereb/Awoo-Installer/releases/tag/1.3.4)            |
 | [DBI](https://github.com/rashevskyv/dbi)                                    | [267](https://github.com/rashevskyv/dbi/releases/tag/267)                         |
 | [EdiZon](https://github.com/WerWolv/EdiZon)                                 | [snapshot](https://github.com/WerWolv/EdiZon/releases/tag/snapshot)               |

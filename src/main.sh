@@ -26,3 +26,6 @@ sh src/modules/homebrew_apps/NX-Activity-Log.sh
 sh src/modules/homebrew_apps/NX-Shell.sh
 sh src/modules/homebrew_apps/Tencent-switcher-GUI.sh
 sh src/modules/homebrew_apps/Switch_90DNS_tester.sh
+
+cd $ROOT_DIST_PATH
+zip -q -r ../$ROOT_ARTIFACTS_PATH/DeepSpace.zip *

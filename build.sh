@@ -1,1 +1,1 @@
-sh src/main.sh
+bash src/main.sh

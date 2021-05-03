@@ -43,6 +43,7 @@ function fs_download() {
 
     fs_md5_check $2 $3
     if [ $? == 0 ]; then
+        log "xx fs_download checksum fail"
         exit 1
     fi
 }

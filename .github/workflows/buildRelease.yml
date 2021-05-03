@@ -1,0 +1,23 @@
+name: Build Release
+
+
+on: 
+  push:
+    tags:
+    - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build
+        run: sh build.sh
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "artifacts/*.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,20 +1,19 @@
 name: Build Release
 
-
-on: 
+on:
   push:
     tags:
-    - '*'
+      - "*"
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     steps:
       - uses: actions/checkout@v2
 
       - name: Build
-        run: sh build.sh
+        run: ./build.sh
 
       - name: Create Release
         uses: ncipollo/release-action@v1

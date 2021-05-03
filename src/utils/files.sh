@@ -16,6 +16,7 @@ function fs_cldir() {
 function fs_md5_check() {
     if [ -f $1 ]; then
         md5=$(md5sum $1 | cut -d ' ' -f1)
+        log "<< fs_md5_check, $@, $md5"
         if [ $md5 == $2 ]; then
             return 1
         else

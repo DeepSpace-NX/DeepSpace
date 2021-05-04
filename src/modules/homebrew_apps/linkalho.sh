@@ -11,4 +11,6 @@ fs_download $PKG_URL $PKG_FILE_PATH $PKG_FILE_HASH
 
 fs_unzip $PKG_FILE_PATH $PKG_OUT_DIR
 
-cp -r $PKG_OUT_DIR/linkalho.nro $ROOT_DIST_PATH/switch
+fs_mkdir $ROOT_DIST_PATH/switch/linkalho
+
+cp -r $PKG_OUT_DIR/linkalho.nro $ROOT_DIST_PATH/switch/linkalho

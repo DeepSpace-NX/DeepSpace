@@ -1,5 +1,7 @@
 # DeepSpace
 
+[![Build Release](https://github.com/DeepSpace-NX/DeepSpace/actions/workflows/buildRelease.yml/badge.svg)](https://github.com/DeepSpace-NX/DeepSpace/actions/workflows/buildRelease.yml)
+
 🎮 The deluxe edition CFW package based on Atmosphere.
 
 ## 🚧 Work-in-progress 🚧
